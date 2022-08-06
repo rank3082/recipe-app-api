@@ -6,4 +6,3 @@ class Calculator:
 
     def sub(self, x: int, y: int) -> int:
         return x - y
-    

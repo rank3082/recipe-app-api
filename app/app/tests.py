@@ -1,11 +1,8 @@
-
 from django.test import TestCase
-
 from app.calc import Calculator
 
 
 class calcTes(TestCase):
-
 
     def test_add(self):
         calculator = Calculator()
