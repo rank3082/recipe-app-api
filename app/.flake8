@@ -5,3 +5,6 @@ exclude =
   __pycache__,
   manage.py,
   settings.py
+
+per-file-ignores =
+    ./core/tests/test_commands.py: E501,
